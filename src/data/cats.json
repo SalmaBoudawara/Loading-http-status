@@ -1,0 +1,482 @@
+[
+{
+  "text": "100Continue",
+  "href": "100",
+  "attr": {
+    "href": "100"
+  },
+  "description": "Continue"
+},
+{
+"text": "101Switching Protocols",
+"href": "101",
+"attr": {
+"href": "101"
+
+}, "description": "Switching Protocols"
+},
+{
+"text": "102Processing",
+"href": "102",
+"attr": {
+"href": "102"
+},
+  "description": "Processing"
+},
+{
+"text": "200OK",
+"href": "200",
+"attr": {
+"href": "200"
+},
+  "description":"l’utilisateur accède à la ressource demandée"
+},
+{
+"text": "201Created",
+"href": "201",
+"attr": {
+"href": "201"
+},
+  "description":"Created"
+},
+{
+"text": "202Accepted",
+"href": "202",
+"attr": {
+"href": "202"
+},
+  "descrption":"Accepted"
+},
+{
+"text": "204No Content",
+"href": "204",
+"attr": {
+"href": "204"
+},
+  "description":"No Content"
+},
+{
+"text": "206Partial Content",
+"href": "206",
+"attr": {
+"href": "206"
+},
+  "description":"Partial Content"
+},
+{
+"text": "207Multi-Status",
+"href": "207",
+"attr": {
+"href": "207"
+},
+  "description":"Multi-Status"
+},
+{
+"text": "300Multiple Choices",
+"href": "300",
+"attr": {
+"href": "300"
+},
+"description": "Multiple Choices"
+},
+{
+"text": "301Moved Permanently",
+"href": "301",
+"attr": {
+"href": "301"
+},
+  "description": "Moved Permanently"
+},
+{
+"text": "302Found",
+"href": "302",
+"attr": {
+"href": "302"
+},
+  "description": "Found"
+},
+{
+"text": "303See Other",
+"href": "303",
+"attr": {
+"href": "303"
+},
+  "description": "See Other"
+},
+{
+"text": "304Not Modified",
+"href": "304",
+"attr": {
+"href": "304"
+},
+  "description": "Not Modified"
+},
+{
+"text": "305Use Proxy",
+"href": "305",
+"attr": {
+"href": "305"
+},
+  "description": "Use Proxy"
+},
+{
+"text": "307Temporary Redirect",
+"href": "307",
+"attr": {
+"href": "307"
+},
+  "description": "Temporary Redirect"
+},
+{
+"text": "308Permanent Redirect",
+"href": "308",
+"attr": {
+"href": "308"
+},
+  "description": "Permanent Redirect"
+},
+{
+"text": "400Bad Request",
+"href": "400",
+"attr": {
+"href": "400"
+},
+  "description": "Bad Request"
+},
+{
+"text": "401Unauthorized",
+"href": "401",
+"attr": {
+"href": "401"
+},
+  "description": "la ressource demandée n’est pas accessible à l’utilisateur, car il n’est pas connecté"
+},
+{
+"text": "402Payment Required",
+"href": "402",
+"attr": {
+"href": "402"
+},
+  "description": "Payment Required"
+},
+{
+"text": "403Forbidden",
+"href": "403",
+"attr": {
+"href": "403"
+},
+  "description": "l’utilisateur ne dispose pas des droits suffisants pour accéder à la ressource demandée"
+},
+{
+"text": "404Not Found",
+"href": "404",
+"attr": {
+"href": "404"
+},
+  "description": "Not Found"
+},
+{
+"text": "405Method Not Allowed",
+"href": "405",
+"attr": {
+"href": "405"
+},
+  "description": "Method Not Allowed"
+},
+{
+"text": "406Not Acceptable",
+"href": "406",
+"attr": {
+"href": "406"
+},
+  "description": "Not Acceptable"
+},
+{
+"text": "408Request Timeout",
+"href": "408",
+"attr": {
+"href": "408"
+},
+  "description": "Request Timeout"
+},
+{
+"text": "409Conflict",
+"href": "409",
+"attr": {
+"href": "409"
+},
+  "description": "Request Timeout"
+},
+{
+"text": "410Gone",
+"href": "410",
+"attr": {
+"href": "410"
+},
+  "description": "Gone"
+},
+{
+"text": "411Length Required",
+"href": "411",
+"attr": {
+"href": "411"
+},
+  "description": "Length Required"
+},
+{
+"text": "412Precondition Failed",
+"href": "412",
+"attr": {
+"href": "412"
+},
+  "description": "Precondition Failed"
+},
+{
+"text": "413Payload Too Large",
+"href": "413",
+"attr": {
+"href": "413"
+},
+  "description": "Payload Too Large"
+},
+{
+"text": "414Request-URI Too Long",
+"href": "414",
+"attr": {
+"href": "414"
+},
+  "description": "Request-URI Too Long"
+},
+{
+"text": "415Unsupported Media Type",
+"href": "415",
+"attr": {
+"href": "415"
+},
+  "description": "Unsupported Media Type"
+},
+{
+"text": "416Request Range Not Satisfiable",
+"href": "416",
+"attr": {
+"href": "416"
+},
+  "description": "Request Range Not Satisfiable"
+},
+{
+"text": "417Expectation Failed",
+"href": "417",
+"attr": {
+"href": "417"
+},
+  "description": "Expectation Failed"
+},
+{
+"text": "418IÂ´m a teapot",
+"href": "418",
+"attr": {
+"href": "418"
+},
+  "description": "IÂ´m a teapot"
+},
+{
+"text": "420Enhance Your Calm",
+"href": "420",
+"attr": {
+"href": "420"
+},
+  "description": "Enhance Your Calm"
+},
+{
+"text": "421Misdirected Request",
+"href": "421",
+"attr": {
+"href": "421"
+},
+  "description": "Misdirected Request"
+},
+{
+"text": "422Unprocessable Entity",
+"href": "422",
+"attr": {
+"href": "422"
+},
+  "description": "Unprocessable Entity"
+},
+{
+"text": "423Locked",
+"href": "423",
+"attr": {
+"href": "423"
+},
+  "description": "Locked"
+},
+{
+"text": "424Failed Dependency",
+"href": "424",
+"attr": {
+"href": "424"
+},
+  "description": "Failed Dependency"
+},
+{
+"text": "425Too Early",
+"href": "425",
+"attr": {
+"href": "425"
+},
+  "description": "Too Early"
+},
+{
+"text": "426Upgrade Required",
+"href": "426",
+"attr": {
+"href": "426"
+},
+  "description": "Upgrade Required"
+},
+{
+"text": "429Too Many Requests",
+"href": "429",
+"attr": {
+"href": "429"
+},
+  "description": "Too Many Requests"
+},
+{
+"text": "431Request Header Fields Too Large",
+"href": "431",
+"attr": {
+"href": "431"
+},
+  "description": "Request Header Fields Too Large"
+},
+{
+"text": "444No Response",
+"href": "444",
+"attr": {
+"href": "444"
+},
+  "description": "No Response"
+},
+{
+"text": "450Blocked by Windows Parental Controls",
+"href": "450",
+"attr": {
+"href": "450"
+},
+  "description": "Blocked by Windows Parental Controls"
+},
+{
+"text": "451Unavailable For Legal Reasons",
+"href": "451",
+"attr": {
+"href": "451"
+},
+  "description": "Unavailable For Legal Reasons"
+},
+{
+"text": "499Client Closed Request",
+"href": "499",
+"attr": {
+"href": "499"
+},
+  "description": "Client Closed Request"
+},
+{
+"text": "500Internal Server Error",
+"href": "500",
+"attr": {
+"href": "500"
+},
+  "description": "le serveur n’a pas réussi à traiter la demande"
+},
+{
+"text": "501Not Implemented",
+"href": "501",
+"attr": {
+"href": "501"
+},
+  "description": "Not Implemented"
+},
+{
+"text": "502Bad Gateway",
+"href": "502",
+"attr": {
+"href": "502"
+},
+  "description": "Bad Gateway"
+},
+{
+"text": "503Service Unavailable",
+"href": "503",
+"attr": {
+"href": "503"
+},
+  "description": "Service Unavailable"
+},
+{
+"text": "504Gateway Timeout",
+"href": "504",
+"attr": {
+"href": "504"
+},
+  "description": "Gateway Timeout"
+},
+{
+"text": "506Variant Also Negotiates",
+"href": "506",
+"attr": {
+"href": "506"
+},
+  "description": "Variant Also Negotiates"
+},
+{
+"text": "507Insufficient Storage",
+"href": "507",
+"attr": {
+"href": "507"
+},
+  "description": "Insufficient Storage"
+},
+{
+"text": "508Loop Detected",
+"href": "508",
+"attr": {
+"href": "508"
+},
+  "description": "Loop Detected"
+},
+{
+"text": "509Bandwidth Limit Exceeded",
+"href": "509",
+"attr": {
+"href": "509"
+},
+  "description": "Bandwidth Limit Exceeded"
+},
+{
+"text": "510Not Extended",
+"href": "510",
+"attr": {
+"href": "510"
+},
+  "description": "Not Extended"
+},
+{
+"text": "511Network Authentication Required",
+"href": "511",
+"attr": {
+"href": "511"
+},
+  "description": "Network Authentication Required"
+},
+{
+"text": "599Network Connect Timeout Error",
+"href": "599",
+"attr": {
+"href": "599"
+},
+  "description": "Network Connect Timeout Error"
+}
+]
