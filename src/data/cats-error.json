@@ -1,0 +1,26 @@
+[
+  {
+    "text": "401Unauthorized",
+    "href": "401",
+    "attr": {
+      "href": "401"
+    },
+    "description": "la ressource demandée n’est pas accessible à l’utilisateur, car il n’est pas connecté"
+  },
+  {
+  "text": "403Forbidden",
+  "href": "403",
+  "attr": {
+    "href": "403"
+  },
+  "description": "l’utilisateur ne dispose pas des droits suffisants pour accéder à la ressource demandée"
+},
+  {
+    "text": "500Internal Server Error",
+    "href": "500",
+    "attr": {
+      "href": "500"
+    },
+    "description": "le serveur n’a pas réussi à traiter la demande"
+  }
+]

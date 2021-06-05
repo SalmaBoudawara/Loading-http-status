@@ -1,30 +1,55 @@
 import React, {useState} from 'react'
 import '../App.css'
-import cats from './../data/cats.json';
-
+import axios from "axios";
+import catsErrors from '../data/cats-error.json'
 
 function Affichage() {
-    // init url
-    let url = 'https://http.cat/200';
 
     const [loading, setLoasding] = useState(true);
-    const [img, setImg] = useState(url);
+    const [img, setImg] = useState('');
     const [code, setCode] = useState('');
     const [description, setDescription] = useState('')
 
-    const listCats = cats.filter((e => (e.href === "200") || (e.href === "401") || (e.href === "403") || (e.href === "500")))
-    const randerCats = listCats[Math.floor(Math.random() * listCats.length)];
 
     const fetchData = () => {
-        setLoasding(false);
-        setTimeout(() => {
-            setLoasding(true);
-            setImg('https://http.cat/' + randerCats.href);
-            setCode(randerCats.href)
-            setDescription(randerCats.description)
-        }, 2000)
+        // Pour lancer le projet npm start
+        // Pour tester api :voici le bon url "http://localhost:9001/cats" qu'il me retourne un status 200,
+        // Pour générer les erreurs  :
+        //                             - Changer le url par exemple "http://localhost:9001/dog"
+        //                             - Changer la méthode get par post par exemple  "axios.post('http://localhost:9001/cats')"
+
+        axios.get('http://localhost:9001/catssm')
+
+            .then(resp => {
+                setLoasding(false)
+                const listCats = resp.data.filter(e => (e.href === "200"))[0];
+                setTimeout(() => {
+                    setLoasding(true);
+                    setImg('https://http.cat/' + listCats.href)
+                    setCode(listCats.href)
+                    setDescription(listCats.description)
+
+
+                }, 2000)
+
+
+            })
+            .catch(error => {
+                setLoasding(false);
+                const httpStatusValue = catsErrors[Math.floor(Math.random() * catsErrors.length)]
+                setTimeout(() => {
+                    setLoasding(true);
+                    setImg('https://http.cat/' + httpStatusValue.href);
+                    setCode(httpStatusValue.href);
+                    setDescription(httpStatusValue.description);
+                }, 2000)
+
+
+            });
+
 
     }
+
 
     return (
 
@@ -41,7 +66,7 @@ function Affichage() {
                 <div className="gallery">
                     <div className="imagePlaceholder">
                         <img src={img}/>
-                        <p>{code}:<span>{description}</span>
+                        <p>{code + ':'} <span>{description}</span>
                         </p>
                     </div>
 
